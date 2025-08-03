@@ -1,0 +1,58 @@
+﻿# C++ Builder specific files
+__history/
+__astcache/
+__recovery/
+
+# Compiled binaries
+Win32/
+Win64/
+Debug/
+Release/
+
+# Project user settings
+*.cbproj.local
+*.identcache
+*.tds
+*.dsk
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Log files
+*.log
+
+# IDE files
+*.dproj.local
+*.groupproj.local
+
+# Object files
+*.obj
+*.o
+*.dcu
+
+# Executable files
+*.exe
+*.dll
+
+# Library files
+*.lib
+*.a
+
+# Resource files (compiled)
+*.res
+
+# Map files
+*.map
+
+# Debug info
+*.pdb
+*.ilk
+
+# Visual Studio Code
+.vscode/
+
+# OS generated files
+Thumbs.db
+.DS_Store

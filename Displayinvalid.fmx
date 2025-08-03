@@ -1,0 +1,104 @@
+object InvalidForm: TInvalidForm
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  Caption = 'InvalidForm'
+  ClientHeight = 121
+  ClientWidth = 380
+  Fill.Color = claGainsboro
+  Fill.Kind = Solid
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  DesignerMasterStyle = 0
+  object clickok: TRoundRect
+    Fill.Color = xFF00AFD1
+    Position.X = 123.000000000000000000
+    Position.Y = 74.000000000000000000
+    Size.Width = 139.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    Stroke.Thickness = 2.000000000000000000
+    OnClick = clickokClick
+    OnMouseDown = clickokMouseDown
+    OnMouseUp = clickokMouseUp
+    OnMouseEnter = clickokMouseEnter
+    OnMouseLeave = clickokMouseLeave
+    object Text1: TText
+      HitTest = False
+      Position.X = 56.000000000000000000
+      Position.Y = -4.000000000000000000
+      Size.Width = 54.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'OK'
+      TextSettings.Font.Family = 'Impact'
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000002000000}
+      TextSettings.FontColor = claAzure
+    end
+    object rrok: TRoundRect
+      Fill.Color = xFF00C8F0
+      HitTest = False
+      Position.X = 3.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 36.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Text2: TText
+        HitTest = False
+        Position.X = -4.000000000000000000
+        Position.Y = 2.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 36.000000000000000000
+        Size.PlatformDefault = False
+        Text = '<'
+        TextSettings.Font.Family = 'Impact'
+        TextSettings.Font.Size = 48.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000002000000}
+        TextSettings.FontColor = claAzure
+      end
+    end
+  end
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = xFF00AFD1
+    Size.Width = 380.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Text3: TText
+      Align = Client
+      HitTest = False
+      Size.Width = 380.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Notification'
+      TextSettings.Font.Family = 'Impact'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000002000000}
+      TextSettings.FontColor = claAzure
+    end
+  end
+  object Text4: TText
+    HitTest = False
+    Position.X = 10.000000000000000000
+    Position.Y = 28.000000000000000000
+    Size.Width = 364.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Invalid username or password.'
+    TextSettings.Font.Family = 'VNI Russia'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  object MediaPlayer1: TMediaPlayer
+    Left = 312
+    Top = 96
+  end
+end
