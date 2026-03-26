@@ -4,7 +4,7 @@ A modern, feature-rich Tic Tac Toe game built with C++ Builder using object-orie
 
 ## 🎮 Demo Video
 
-[Watch the demo video](https://res.cloudinary.com/dvxnesld4/video/upload/v1754197821/6868696667361_isac0h.mp4)
+[Watch the demo video](https://res.cloudinary.com/dnzzexe1d/video/upload/v1774549057/7259173882422_1_sboiuy.mp4)
 
 ## 🛠️ Technology Stack
 
